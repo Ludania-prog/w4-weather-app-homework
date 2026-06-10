@@ -6,16 +6,16 @@ export default function Search() {
       <div className="header">
         <ul>
           <li>
-            <a>Lisbon</a>
+            <a href="/">Lisbon</a>
           </li>
           <li>
-            <a>Paris</a>
+            <a href="/">Paris</a>
           </li>
           <li>
-            <a>Sidney</a>
+            <a href="/">Sidney</a>
           </li>
           <li>
-            <a>San Francisco</a>
+            <a href="/">San Francisco</a>
           </li>
         </ul>
       </div>
@@ -31,6 +31,9 @@ export default function Search() {
 
         <input type="submit" value="Search" className="search-form-button" />
       </form>
+      <div className="City">
+        <h1>New York</h1>
+      </div>
     </div>
   );
 }
